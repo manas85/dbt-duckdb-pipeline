@@ -7,3 +7,7 @@ model-paths: ["models"]
 macro-paths: ["macros"]
 clean-targets:
   - "target"
+models:
+  analytics:
+    +materialized: table
+    
