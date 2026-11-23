@@ -50,6 +50,9 @@ models:
     columns:
       - name: month
         description: Year and month of the summary.
+        data_tests:
+          - not_null
+          - unique
       - name: total_postings
         description: All postings that month (summed from jobs_per_month).
       - name: remote_postings
